@@ -32,7 +32,9 @@ class EvaluateString extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        return (int) $this->evaluateInput($input);
+        $result = (int) $this->evaluateInput($input);
+        $output->writeln($result);
+        return $result;
     }
 
     /**

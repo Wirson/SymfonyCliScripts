@@ -53,6 +53,8 @@ class SortJson extends Command
 
             return $result;
         });
+//easily readable in cli
+        print_r($json);
 
         return json_encode($json);
     }

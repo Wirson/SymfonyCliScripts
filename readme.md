@@ -1,0 +1,1 @@
+# A PHP cli application built with Symfony/Console component
